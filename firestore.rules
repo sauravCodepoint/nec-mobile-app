@@ -1,0 +1,32 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Cloud audit trail written by AuditLogRepository (fire-and-forget,
+    // unauthenticated — the app has no Firebase Auth). Append-only: clients
+    // may create entries shaped like AuditLogEntryDto but can never read,
+    // modify, or delete them. Analysis happens via the console / Admin SDK,
+    // which bypass these rules.
+    match /api_audit_logs/{entryId} {
+      allow create: if request.resource.data.keys().hasAll([
+            'event', 'member_code', 'attempt', 'method', 'url',
+            'ts_client_utc', 'app_version', 'device', 'ts_server', 'expire_at',
+          ])
+          && request.resource.data.event in ['request', 'response', 'exception']
+          && request.resource.data.member_code is int
+          && request.resource.data.method is string
+          && request.resource.data.url is string
+          // serverTimestamp() sentinel — proves the client didn't back-date.
+          && request.resource.data.ts_server == request.time
+          // TTL field must be a real timestamp within the 28-day retention
+          // window (+1 day of slack for clock skew).
+          && request.resource.data.expire_at is timestamp
+          && request.resource.data.expire_at < request.time + duration.value(29, 'd');
+      allow read, update, delete: if false;
+    }
+
+    // Everything else stays closed.
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

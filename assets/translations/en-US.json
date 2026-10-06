@@ -1,0 +1,1380 @@
+{
+  "onboarding": {
+    "slides": {
+      "first": {
+        "title": "Safe & Secure",
+        "description": "Your safety is our highest priority, and every part of our platform is built around that commitment. Every transaction you make is safeguarded using advanced end-to-end encryption, multi-layered authentication, and strict security protocols that meet and exceed global financial industry standards. Our dedicated security team continuously monitors, audits, and improves our systems to protect your personal and financial information from unauthorized access, fraud, and emerging threats. Sensitive data is never stored in plain text, your device is verified at every login, and suspicious activity is detected and blocked in real time. From the moment you open the app to the second your transfer completes, your information stays private, your account stays protected, and your money stays secure at every step of the journey — so you can transact with complete confidence, anytime, anywhere in the world."
+      },
+      "second": {
+        "title": "Fast Transfers",
+        "description": "Send money quickly and confidently with our highly optimized transfer system, engineered from the ground up for unmatched speed, reliability, and transparency. From the moment you initiate a transfer to the second it is received, every step is intelligently streamlined to minimize waiting time, eliminate unnecessary delays, and keep you fully informed with real-time status updates, push notifications, and clear receipts. Whether you are sending urgent support to family, handling routine monthly transfers, or moving larger amounts to trusted beneficiaries, our network of banking partners and disbursement channels works tirelessly behind the scenes so your money reaches its destination promptly and accurately. With competitive exchange rates, transparent fees, and round-the-clock availability, you stay in full control of your transactions — giving you peace of mind and the freedom to move money on your terms, anytime, anywhere."
+      }
+    }
+  },
+  "login": {
+    "title": "Login / Sign Up",
+    "subtitle": "Sign in to your account to continue",
+    "idType": {
+      "label": "ID Type",
+      "placeholder": "Select ID Type"
+    },
+    "idNumber": {
+      "label": "{idType} Number",
+      "placeholder": "Enter your {idType} number",
+      "validationError": "Please enter a valid ID number"
+    },
+    "mobileNumber": {
+      "label": "Mobile Number",
+      "placeholder": "Enter your Mobile Number",
+      "validationError": "Please enter a valid 8-digit mobile number"
+    },
+    "needHelp": "Need help?",
+    "contactUsLink": "Contact Us"
+  },
+  "otp": {
+    "title": "Enter OTP",
+    "description": "An OTP has been sent to {mobileNumber}. Please enter the OTP to continue.",
+    "validationError": "Invalid OTP. Please try again.",
+    "exitDialog": {
+      "title": "Exit Verification?",
+      "message": "You'll need to request a new OTP if you leave now."
+    },
+    "unexpectedStateDialog": {
+      "title": "Verification Failed",
+      "message": "We couldn't complete your sign-in right now. Please try again. If the problem continues, contact our support team and share this error ID: {errorId}"
+    }
+  },
+  "kyc": {
+    "page": {
+      "title": "Complete Your KYC"
+    },
+    "exit": {
+      "title": "Exit KYC?",
+      "message": "Your progress will not be saved."
+    },
+    "steps": {
+      "document": "Document",
+      "details": "Details",
+      "video": "Video",
+      "signature": "Signature"
+    },
+    "section": {
+      "document": {
+        "title": "Identity Document",
+        "subtitle": "Capture both sides of your government-issued ID"
+      },
+      "video": {
+        "title": "Selfie Video",
+        "subtitle": "Position your face in the frame and look at the camera"
+      },
+      "signature": {
+        "title": "Signature",
+        "subtitle": "Draw your signature digitally on the signature pad"
+      },
+      "tag": {
+        "required": "Required",
+        "optional": "Optional"
+      }
+    },
+    "document": {
+      "front": {
+        "label": "Front Side",
+        "hint": "Full name & photo visible"
+      },
+      "back": {
+        "label": "Back Side",
+        "hint": "Barcode & MRZ visible"
+      },
+      "action": {
+        "capture": "Capture",
+        "tapToReplace": "Tap to replace",
+        "replace": "Replace Photo",
+        "replaceSubtitle": "Take a new photo or choose from library",
+        "remove": "Remove",
+        "removeSubtitle": "Delete this document"
+      }
+    },
+    "requirements": {
+      "document": {
+        "format": "JPG / PNG",
+        "size": "Max 5 MB",
+        "quality": "All corners visible"
+      },
+      "video": {
+        "format": "MP4 / MOV",
+        "size": "Max 20 MB",
+        "quality": "Good lighting"
+      },
+      "signature": {
+        "format": "PNG / JPG",
+        "size": "Max 2 MB",
+        "quality": "White background"
+      }
+    },
+    "field": {
+      "idNumber": {
+        "label": "ID Number",
+        "hint": "Enter your ID number",
+        "hintNoType": "Select an ID type first"
+      },
+      "issueDate": {
+        "label": "Issue Date"
+      },
+      "expiryDate": {
+        "label": "Expiry Date"
+      },
+      "dateOfBirth": {
+        "label": "Date of Birth"
+      }
+    },
+    "ocr": {
+      "autofillNotice": "Fields auto-filled from your ID — please verify and correct if needed",
+      "sheet": {
+        "title": "ID Data Detected",
+        "subtitle": "Review and confirm before applying",
+        "discardButton": "Discard",
+        "useButton": "Use This Data"
+      },
+      "mismatch": {
+        "title": "ID doesn't match",
+        "message": "The scanned document doesn't match the ID type or number you entered. Please upload your own ID document.",
+        "confirmMessage": "The scan couldn't be matched to the ID you entered. This can happen when the photo is blurry or the reader misreads it. If your document is correct you can continue anyway. But submitting an ID that doesn't match your registered details will lead to KYC rejection.",
+        "retakeButton": "Retake",
+        "useAnywayButton": "Use Anyway",
+        "bypassedTitle": "ID check overridden",
+        "bypassedMessage": "You chose to continue despite an ID mismatch. Make sure the document is correct. Wrong information will lead to KYC rejection."
+      }
+    },
+    "security": {
+      "note": "Your documents are encrypted and securely transmitted. We comply with international data protection standards."
+    },
+    "tnc": {
+      "unacknowledgedToast": "Please read and accept the Terms and Conditions to proceed."
+    },
+    "button": {
+      "submit": "Submit for Verification",
+      "incomplete": "Complete All Steps"
+    },
+    "submission": {
+      "success": {
+        "title": "KYC Submitted!",
+        "button": "Continue"
+      }
+    },
+    "errors": {
+      "serverError": "Something went wrong. Please try again."
+    },
+    "validation": {
+      "error": {
+        "required": "This field is required",
+        "tooShort": "Minimum {min} characters required",
+        "tooLong": "Maximum {max} characters allowed",
+        "invalidFormat": "Invalid format",
+        "invalidDate": "Enter a valid date (dd/mm/yyyy)",
+        "expiredDocument": "This document has expired",
+        "futureDate": "Date cannot be in the future",
+        "underage": "Must be at least {age} years old",
+        "invalidIdentityNumber": "Invalid identity number",
+        "invalidMobileNumber": "Invalid mobile number",
+        "invalidOtp": "Invalid OTP",
+        "invalidEmailAddress": "Invalid email address",
+        "sameAsCurrentMpin": "Cannot be the same as current MPIN",
+        "invalidMpin": "Invalid MPIN",
+        "repeatedDigits": "Cannot use repeated digits",
+        "sequentialDigits": "Cannot use sequential digits"
+      },
+      "missingDocuments": "Please upload both the front and back of your ID card"
+    },
+    "signature": {
+      "card": {
+        "title": "Handwritten Signature",
+        "hint": "Use the signature pad to draw your signature digitally.",
+        "drawButton": "Draw Signature",
+        "preview": {
+          "title": "Your Signature",
+          "deleting": "Deleting…",
+          "uploading": "Uploading…",
+          "uploaded": "Uploaded successfully",
+          "redrawButton": "Redraw"
+        }
+      },
+      "pad": {
+        "title": "Draw Your Signature",
+        "canvasLabel": "Signature Area",
+        "clearButton": "Clear",
+        "confirmButton": "Confirm Signature",
+        "hintOverlay": "Sign here",
+        "tips": {
+          "title": "Tips for a clear signature",
+          "tip1": "Use your finger or stylus to sign naturally",
+          "tip2": "Sign within the white area below",
+          "tip3": "Match your official bank signature"
+        }
+      }
+    },
+    "video": {
+      "card": {
+        "instruction1": "Position your face in the frame",
+        "instruction2": "Look directly at the camera",
+        "instruction3": "Ensure good lighting",
+        "recordButton": "Record Video",
+        "deleting": "Deleting…",
+        "uploading": "Uploading…",
+        "recorded": {
+          "uploaded": "Uploaded · 5 sec",
+          "recorded": "Recorded · 5 sec",
+          "tapToPlay": "Tap to play",
+          "playButton": "Play",
+          "deleteButton": "Delete"
+        },
+        "durationBadge": "5 SEC"
+      },
+      "recorder": {
+        "loading": "Starting camera…",
+        "topBarTitle": "Selfie Video",
+        "instruction1": "Position your face in the frame",
+        "instruction2": "Look directly at the camera",
+        "instruction4": "Good lighting, stable hands",
+        "faceStatus": {
+          "detected": "Face detected — ready to record",
+          "notDetected": "Position your face in the oval"
+        },
+        "tapToRecord": "Tap to record · 5 sec",
+        "faceRequired": "Face required to record",
+        "countdown": {
+          "label": "Get Ready!",
+          "holdId": "Position your face in the frame"
+        },
+        "preview": {
+          "title": "Preview",
+          "processing": "Processing…"
+        },
+        "status": {
+          "validating": "Analyzing video…",
+          "validatingSubtitle": "Checking for your face in the recording",
+          "failed": "Face not detected in video",
+          "failedSubtitle": "Your face was hidden — please retake for valid KYC",
+          "success": "Video captured successfully",
+          "successSubtitle": "{seconds}-second selfie video is ready to submit"
+        },
+        "retakeButton": "Retake",
+        "useButton": "Use Video",
+        "error": {
+          "noCamera": "No camera available."
+        },
+        "recBadge": "REC"
+      }
+    },
+    "camera": {
+      "title": {
+        "front": "Front of ID",
+        "back": "Back of ID"
+      },
+      "processing": "Extracting ID details…",
+      "guide": {
+        "scanning": "Place your ID card inside the frame",
+        "aligned": "Hold still…",
+        "capturing": "Capturing…"
+      },
+      "status": {
+        "scanning": "Ensure all 4 corners are visible and the ID is well-lit",
+        "aligned": "Card detected — tap to capture"
+      },
+      "error": {
+        "noCamera": "No camera found."
+      }
+    }
+  },
+  "update_kyc": {
+    "page": {
+      "title": "Update KYC"
+    },
+    "submission": {
+      "success": {
+        "message": "Your KYC details have been submitted for review. Our team will manually verify your documents and restore your access once approved."
+      }
+    },
+    "section": {
+      "details": {
+        "title": "ID Details",
+        "subtitle": "Enter the details exactly as they appear on your identity document"
+      }
+    },
+    "field": {
+      "remarks": {
+        "label": "Remarks",
+        "hint": "Add any additional notes (optional)"
+      }
+    }
+  },
+  "completeProfile": {
+    "appBar": "Complete Your Profile",
+    "header": {
+      "title": "Complete Your Profile",
+      "subtitle": "A few details are needed to activate your mobile banking access."
+    },
+    "exitDialog": {
+      "title": "Exit Profile Setup?",
+      "message": "Your entered information will not be saved. You can complete this later from your profile."
+    },
+    "errorView": {
+      "title": "Failed to load fields",
+      "subtitle": "Could not load profile fields. Please try again.",
+      "retry": "Retry"
+    },
+    "banner": {
+      "title": "Profile Setup Required",
+      "badge": "ONE TIME",
+      "subtitle": "Your account exists in our system. Fill the fields below and record a selfie video to unlock full mobile access."
+    },
+    "fieldsCard": {
+      "title": "Personal Details",
+      "subtitle": "All required fields must be filled"
+    },
+    "videoCard": {
+      "title": "Selfie Video",
+      "subtitle": "Record a 5-second selfie for identity verification",
+      "required": "Required"
+    },
+    "submit": "Submit Profile",
+    "privacyNote": "Your data is encrypted end-to-end and stored securely in compliance with banking data protection regulations.",
+    "toast": {
+      "videoUploadFailed": "Video upload failed. Please try again.",
+      "videoRemoveFailed": "Failed to remove video. Please try again.",
+      "serverError": "Something went wrong. Please try again.",
+      "submitFailed": "Submission failed. Please try again.",
+      "termsRequired": "Please read and accept the Terms and Conditions to proceed.",
+      "videoRequired": "Please record your selfie video to continue."
+    },
+    "dialog": {
+      "successTitle": "Profile Submitted",
+      "successMessage": "Your profile has been submitted successfully. Next, secure your account by creating your MPIN.",
+      "successButton": "Done"
+    },
+    "unexpectedStateDialog": {
+      "title": "Sign-in Issue",
+      "message": "Your profile was submitted, but we couldn't sign you in right now. Please log in again to continue. If the problem continues, contact our support team and share this error ID: {errorId}"
+    },
+    "city": {
+      "awaitingState": "Please select a state first",
+      "loading": "Loading cities..."
+    },
+    "dropdown": {
+      "noOptions": "No options available"
+    }
+  },
+  "memberApproval": {
+    "title": "Application Under Review",
+    "subtitle": "Thanks for registering. Our team is verifying your details. This usually takes 15 minutes to 12 hours.",
+    "statusPill": "Awaiting Approval",
+    "timeline": {
+      "submitted": "Registration Submitted",
+      "submittedHint": "We've received your information",
+      "review": "Under Review",
+      "reviewHint": "Our team is verifying your account",
+      "approved": "Account Activated",
+      "approvedHint": "You're all set to start sending money",
+      "nowBadge": "NOW"
+    },
+    "next": {
+      "title": "What happens next",
+      "notify": "We'll notify you by SMS and push notification once your account is approved.",
+      "mpin": "Set up your secure MPIN to protect your account.",
+      "biometric": "Enable biometric and face recognition login for faster, safer access.",
+      "send": "Start sending money to your loved ones."
+    },
+    "toast": {
+      "approved": "Your account has been approved! Set your MPIN to continue."
+    },
+    "rejected": {
+      "statusPill": "Not Approved",
+      "title": "Registration Not Approved",
+      "subtitle": "We reviewed your application but couldn't approve it this time.",
+      "timeline": {
+        "step": "Not Approved",
+        "stepHint": "Your application was reviewed and could not be accepted"
+      },
+      "reason": {
+        "title": "Why wasn't it approved?",
+        "fallback": "Our team couldn't verify your registration details.",
+        "hint": "You can register again with corrected details, or visit a branch for help."
+      },
+      "registerAgain": "Register Again"
+    },
+    "backToLogin": "Back to Login"
+  },
+  "forgotMpin": {
+    "title": "Forgot MPIN",
+    "idType": {
+      "label": "ID Type",
+      "placeholder": "Select ID Type"
+    },
+    "idNumber": {
+      "label": "{idType} Number",
+      "placeholder": "Enter your {idType} number",
+      "validationError": "Please enter a valid ID number"
+    },
+    "mobileNumber": {
+      "label": "Mobile Number",
+      "placeholder": "Enter your Mobile Number",
+      "validationError": "Please enter a valid 8-digit mobile number"
+    },
+    "subtitle": "Enter your registered details below and we will send a verification code to your mobile number.",
+    "pendingApprovalDialog": {
+      "title": "Account Under Review",
+      "message": "Your registration is still awaiting approval. You can set your MPIN once your account has been approved."
+    },
+    "notRegisteredDialog": {
+      "title": "Account Not Registered",
+      "message": "This ID is not registered yet, so there is no MPIN to reset. Please register first from the login screen."
+    }
+  },
+  "setMpin": {
+    "newMpin": {
+      "title": "Create your MPIN",
+      "errors": {
+        "invalidMpin": "MPIN must be 6 digits. Kindly please enter a valid MPIN.",
+        "repeatedDigits": "MPIN cannot contain repeated digits. Please choose a different MPIN.",
+        "sequentialDigits": "MPIN cannot contain sequential digits. Please choose a different MPIN.",
+        "sameAsCurrentMpin": "New MPIN cannot be the same as the current MPIN. Please choose a different MPIN."
+      }
+    },
+    "verifyMpin": {
+      "title": "Confirm your MPIN",
+      "success": {
+        "title": "MPIN Set Successfully",
+        "message": "Your MPIN has been set successfully. You can now use your MPIN to login."
+      },
+      "errors": {
+        "mismatchVerifyMpin": "MPINs do not match. Please re-enter to confirm your MPIN."
+      }
+    }
+  },
+  "bioMetric": {
+    "title": "Biometric Authentication",
+    "heading": "Enable Biometric Authentication",
+    "description": "Use your fingerprint to quickly and securely access your account without entering your password every time.",
+    "unavailable": "Biometric authentication is not available on this device.",
+    "enableNow": "Enable Now",
+    "maybeLater": "Maybe Later"
+  },
+  "main": {
+    "tabs": {
+      "home": "Home",
+      "beneficiaries": "Beneficiaries",
+      "transactions": "Transactions",
+      "settings": "Settings",
+      "support": "Support",
+      "rateCalculator": "Rate Calculator"
+    },
+    "dialog": {
+      "exit": {
+        "title": "Exit App",
+        "message": "Are you sure you want to exit the application?",
+        "button": "Exit"
+      }
+    }
+  },
+  "rateCalculator": {
+    "title": "Rate Calculator",
+    "subtitle": "Check today's live exchange rates",
+    "errorTitle": "Rates Unavailable",
+    "errorSubtitle": "We couldn't load the exchange rates. Please try again."
+  },
+  "home": {
+    "welcome": "Welcome to NEC Exchange!",
+    "drawer": {
+      "hi": "Hi, {userName}!",
+      "active": "Active",
+      "inactive": "Inactive",
+      "home": "Home",
+      "profile": "Profile",
+      "transactionHistory": "Transaction History",
+      "ourBranches": "Our Branches",
+      "language": "Language",
+      "contactUs": "Contact Us",
+      "termsAndConditions": "Terms and Conditions",
+      "privacyPolicy": "Privacy Policy",
+      "aboutUs": "About Us"
+    },
+    "sendAgain": {
+      "title": "Send Again",
+      "viewAll": "View all",
+      "missingFieldsTitle": "Beneficiary Update Required",
+      "checkFailed": "Unable to verify beneficiary details. Please try again.",
+      "loadFailed": "We couldn't load your recent transfers. Please try again.",
+      "agentLoadFailed": "Unable to load the payout agents. Please try again.",
+      "agentUnavailable": "No payout agent is available for this transfer right now. Please start the transfer from the Send Money section and pick a different transfer type, or contact support."
+    },
+    "recentTransactions": {
+      "title": "Recent Transactions",
+      "viewAll": "View All",
+      "loadFailed": "We couldn't load your recent transactions. Please try again."
+    },
+    "trust": {
+      "secure": {
+        "title": "Secure Transfer",
+        "subtitle": "Bank-grade security"
+      },
+      "fast": {
+        "title": "Fast Delivery",
+        "subtitle": "Same day transfer"
+      },
+      "encrypted": {
+        "title": "Encrypted",
+        "subtitle": "End-to-end encrypted"
+      }
+    },
+    "sendMoney": {
+      "title": "Send Money"
+    },
+    "transferType": {
+      "label": "Transfer Type",
+      "placeholder": "Select Transfer Type",
+      "onlyOneOption": "{transferType} is the only transfer type available for now. You can continue with it selected.",
+      "single": "Only option for this destination"
+    },
+    "corridorError": {
+      "label": "Couldn't load options",
+      "transferType": "We couldn't load the transfer types for the selected receive country. Check your connection and try again.",
+      "bankOrAgent": "We couldn't load the payout banks and agents for this transfer. Check your connection and try again.",
+      "agent": "We couldn't load the agents for this transfer. Check your connection and try again.",
+      "destination": "We couldn't load the receive countries. Check your connection and try again."
+    },
+    "corridorUnavailable": {
+      "label": "Not available",
+      "message": "No transfer option is available for {country} right now. Please choose a different receive country.",
+      "messageGeneric": "No transfer option is available for the selected receive country right now. Please choose a different one.",
+      "destinationMessage": "No receive country is available right now. Please try again in a little while or contact support.",
+      "bankOrAgentMessage": "No payout bank or agent is available for {country} with this transfer type. Please choose a different transfer type or receive country.",
+      "bankOrAgentMessageGeneric": "No payout bank or agent is available for this transfer type. Please choose a different transfer type or receive country.",
+      "agentMessage": "No payout agent is available for {country} with this transfer type. Please choose a different transfer type or receive country.",
+      "agentMessageGeneric": "No payout agent is available for this transfer type. Please choose a different transfer type or receive country."
+    },
+    "bankOrAgent": {
+      "label": "Bank / Agent",
+      "placeholder": "Select Bank or Agent"
+    },
+    "agent": {
+      "label": "Agent",
+      "placeholder": "Select Agent"
+    },
+    "paymentMethod": {
+      "label": "Payment Option",
+      "placeholder": "Select Payment Option",
+      "onlyOneOption": "{paymentMethod} is the only payment option available for now"
+    },
+    "chooseBeneficiaryCta": {
+      "button": "Choose Beneficiary",
+      "idle": "Complete the details to continue"
+    },
+    "showcase": {
+      "menu": {
+        "title": "Your menu",
+        "description": "Open the menu to reach your profile, transactions, settings and support."
+      },
+      "recentBeneficiaries": {
+        "title": "Recent beneficiaries",
+        "description": "Tap a recent contact to start a transfer to them in seconds."
+      },
+      "sendMoney": {
+        "title": "Enter the amount",
+        "description": "Type how much you want to send and we'll show the converted amount instantly."
+      },
+      "destination": {
+        "title": "Receive country",
+        "description": "Pick the country and currency your beneficiary will receive."
+      },
+      "transferType": {
+        "title": "Delivery method",
+        "description": "Choose how the money reaches your beneficiary — bank deposit, cash or wallet."
+      },
+      "bankOrAgent": {
+        "title": "Bank or agent",
+        "description": "Select the bank or payout agent that will receive the money for your beneficiary."
+      },
+      "agent": {
+        "title": "Agent",
+        "description": "Select the payout agent that will disburse the money to your beneficiary."
+      },
+      "paymentMethod": {
+        "title": "Payment option",
+        "description": "Pick how you'd like to pay for this transfer."
+      },
+      "payNow": {
+        "title": "Choose a beneficiary",
+        "description": "Once your destination and transfer type are set, continue here to choose who receives the money."
+      },
+      "recentTransactions": {
+        "title": "Recent transactions",
+        "description": "Track your latest transfers here and tap any one to view its full details or receipt."
+      }
+    },
+    "paymentDetails": {
+      "title": "Payment Details",
+      "exchangeRate": "Exchange Rate",
+      "serviceCharge": "Service Charge",
+      "vat": "VAT ({percent}%)",
+      "totalPayable": "Total Payable"
+    },
+    "chooseBeneficiary": {
+      "title": "Choose Beneficiary",
+      "showcase": {
+        "context": {
+          "title": "Your transfer",
+          "description": "These are the destination, delivery method and bank/agent you chose. Confirm they're right before continuing."
+        },
+        "addBeneficiary": {
+          "title": "Add a beneficiary",
+          "description": "New recipient? Tap here to add their details and we'll save them for next time."
+        },
+        "list": {
+          "title": "Choose a recipient",
+          "description": "Tap a saved beneficiary to select them, then continue to review your transfer."
+        }
+      },
+      "country": "Country",
+      "transferType": "Transfer Type",
+      "bankOrAgent": "Bank or Agent",
+      "savedBeneficiaries": "Saved Beneficiaries",
+      "noBeneficiary": "No beneficiaries found. Please add a beneficiary to continue.",
+      "loadFailed": "We couldn't load your beneficiaries. Please try again.",
+      "selectContextFirst": "Please select a country, transfer type and bank or agent first",
+      "deleteBeneficiarySuccess": "Beneficiary deleted successfully",
+      "deleteBeneficiaryFailed": "Unable to delete beneficiary. Please try again."
+    },
+    "emailNotVerified": {
+      "title": "Email Not Verified",
+      "message": "Please verify your email address to continue using the application"
+    },
+    "kycExpired": {
+      "title": "KYC Expired",
+      "message": "Your identity verification has expired. Please complete the KYC process again to continue using the application.",
+      "button": "Verify Now"
+    },
+    "verifyEmail": {
+      "title": "Verify Your Email",
+      "description": "Please enter your email address to receive a verification code. We will send a one-time password (OTP) to your email to confirm your identity and secure your account.",
+      "errors": {
+        "invalidEmail": "Please enter a valid email address",
+        "emailNotChanged": "Please enter a different email address than your current one."
+      }
+    },
+    "otpVerification": {
+      "title": "OTP Verification",
+      "description": "Please enter the OTP sent to your email to verify your email address.",
+      "sentTo": "The code has been sent to: {emailAddress}",
+      "success": {
+        "message": "Your email address has been verified successfully."
+      },
+      "errors": {
+        "invalidOtp": "Please enter a valid OTP",
+        "unableToVerifyEmailOtp": "Unable to verify OTP. Please ensure you have entered the correct OTP sent to your email."
+      }
+    },
+    "destination": {
+      "label": "Receive Country",
+      "placeholder": "Select Receive Country"
+    }
+  },
+  "beneficiaries": {
+    "title": "Manage Beneficiaries",
+    "searchHint": "Search beneficiaries by name",
+    "noSearchResults": "No beneficiaries match your search",
+    "loading": {
+      "preparingForm": "Preparing your form...",
+      "processing": "Processing...",
+      "refreshing": "Updating your beneficiaries…"
+    },
+    "beneficiaryForm": {
+      "addBeneficiary": "Add Beneficiary",
+      "editBeneficiary": "Edit Beneficiary",
+      "country": {
+        "label": "Country",
+        "placeholder": "Select Country",
+        "onlyOneOption": "{country} is the only country available for now"
+      },
+      "currency": {
+        "label": "Currency",
+        "placeholder": "Select Currency",
+        "onlyOneOption": "{currency} is the only currency available for now"
+      },
+      "transferType": {
+        "label": "Transfer Type",
+        "placeholder": "Select Transfer Type",
+        "onlyOneOption": "{transferType} is the only transfer type available for now"
+      },
+      "bankOrAgent": {
+        "label": "Bank or Agent",
+        "placeholder": "Select Bank or Agent",
+        "onlyOneOption": "{bankOrAgent} is the only bank or agent available for now"
+      },
+      "purposeOfTransaction": {
+        "label": "Purpose of Transaction",
+        "placeholder": "Select Purpose of Transaction",
+        "onlyOneOption": "{purposeOfTransaction} is the only purpose of transaction available for now"
+      },
+      "sourceOfFunds": {
+        "label": "Source of Funds",
+        "placeholder": "Select Source of Funds",
+        "onlyOneOption": "{sourceOfFunds} is the only source of funds available for now"
+      },
+      "branchDisabled": "Please select a bank first",
+      "noOptions": "No options available for this field",
+      "previousValue": "Previously entered: {value}",
+      "previousValueSelected": "Previously selected: {value}",
+      "coolingPeriod": {
+        "note": "Note: ",
+        "message": "Transactions involving business, corporate, or charitable entities are not permitted and will be declined.",
+        "acknowledgement": "I acknowledge and consent to the cooling period policy: for newly added beneficiaries, no transactions can be made within the first 30 minutes. Afterward, transfers of up to OMR 3,500 are allowed within 12 hours of adding or updating a beneficiary."
+      }
+    },
+    "otp": {
+      "title": "Enter OTP",
+      "description": "An OTP has been sent to {mobileNumber}. Please enter the OTP to continue.",
+      "validationError": "Invalid OTP. Please try again.",
+      "success": {
+        "add": "Beneficiary added successfully",
+        "update": "Beneficiary updated successfully"
+      }
+    },
+    "errors": {
+      "countryRequired": "Please select a country for the beneficiary to continue with the process",
+      "currencyRequired": "Please select a currency for the beneficiary to continue with the process",
+      "transferTypeRequired": "Please select a transfer type for the beneficiary to continue with the process",
+      "bankOrAgentRequired": "Please select a bank or agent for the beneficiary to continue with the process",
+      "purposeOfTransactionRequired": "Please select a purpose of transaction for the beneficiary to continue with the process",
+      "sourceOfFundsRequired": "Please select a source of funds for the beneficiary to continue with the process"
+    },
+    "empty": {
+      "title": "No beneficiaries yet",
+      "subtitle": "Add a beneficiary to start sending money quickly and easily."
+    },
+    "actions": {
+      "title": "Beneficiary options",
+      "description": "What would you like to do?",
+      "payment": "Payment",
+      "paymentSubtitle": "Send money to this beneficiary",
+      "edit": "Edit",
+      "editSubtitle": "Update beneficiary details",
+      "delete": "Delete",
+      "deleteSubtitle": "Remove this beneficiary"
+    },
+    "payment": {
+      "selectAgent": "Select Agent",
+      "agentLoadFailed": "Unable to load the payout agents. Please try again.",
+      "checkFailed": "Unable to verify beneficiary details. Please try again."
+    },
+    "delete": {
+      "confirmTitle": "Remove Beneficiary?",
+      "confirmMessage": "This beneficiary will be permanently removed. You can add them again anytime.",
+      "errorTitle": "Delete Failed",
+      "error": "Something went wrong. Please try again.",
+      "success": "Beneficiary removed successfully"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "active": "Active",
+    "inactive": "Inactive",
+    "profile": {
+      "title": "Profile"
+    },
+    "transactionHistory": {
+      "title": "Transaction History"
+    },
+    "ourBranches": {
+      "title": "Our Branches"
+    },
+    "biometricAuthentication": {
+      "title": "Biometric Authentication"
+    },
+    "language": {
+      "title": "Language"
+    },
+    "changeMpin": {
+      "title": "Change MPIN"
+    },
+    "contactUs": {
+      "title": "Contact Us"
+    },
+    "termsAndConditions": {
+      "title": "Terms and Conditions"
+    },
+    "privacyPolicy": {
+      "title": "Privacy Policy"
+    },
+    "aboutUs": {
+      "title": "About Us"
+    }
+  },
+  "support": {
+    "title": "Customer Support",
+    "subtitle": "Need Help?",
+    "description": "Our customer support team is ready to help you anytime.",
+    "contactUs": {
+      "title": "Contact Us",
+      "call": {
+        "title": "Call Us",
+        "message": "Speak directly with our support team"
+      },
+      "whatsapp": {
+        "title": "WhatsApp Support",
+        "message": "Chat with our support team"
+      },
+      "email": {
+        "title": "Email Support",
+        "message": "Send your queries to our email"
+      }
+    },
+    "instruction": "Our support team is available 24/7 to assist you with any issues or questions you may have. Don't hesitate to reach out!",
+    "loadError": "Couldn't load support details",
+    "loadErrorSubtitle": "Please check your connection and try again."
+  },
+  "summary": {
+    "title": "Transaction Summary",
+    "showcase": {
+      "beneficiary": {
+        "title": "Beneficiary",
+        "description": "Double-check who you're sending to — name, bank and account details appear here."
+      },
+      "transferDetails": {
+        "title": "Transfer amount",
+        "description": "The highlighted amounts are editable — tap one and type to adjust it. Everything below recalculates instantly."
+      },
+      "paymentMethod": {
+        "title": "Payment option",
+        "description": "This is how you'll pay for the transfer. Tap to switch to another option."
+      },
+      "paymentDetails": {
+        "title": "Cost breakdown",
+        "description": "See the exchange rate, fees and the total you'll pay before you confirm."
+      },
+      "confirm": {
+        "title": "Tap to confirm",
+        "description": "Accept the terms, then tap the button to complete your transfer securely."
+      }
+    },
+    "beneficiaryDetails": {
+      "title": "Beneficiary Details",
+      "country": "Country",
+      "name": "Name",
+      "transferType": "Transfer Type",
+      "bankOrAgent": "Bank / Agent",
+      "accountNumber": "Account Number",
+      "purposeOfTransaction": "Purpose of Transaction",
+      "sourceOfFunds": "Source of Funds"
+    },
+    "transferDetails": {
+      "title": "Transfer Details"
+    },
+    "paymentMethod": {
+      "title": "Payment Option",
+      "label": "Payment Option",
+      "placeholder": "Select Payment Option",
+      "error": "{paymentMethod} is the only payment option available for now"
+    },
+    "mpin": {
+      "title": "Confirm Payment"
+    },
+    "success": {
+      "confirmPayment": {
+        "message": "Are you sure you want to continue payment?"
+      }
+    },
+    "errors": {
+      "payAtBranch": {
+        "title": "Unable to Process Pay at Branch",
+        "message": "Unable to confirm the transaction through Pay at Branch. Please contact support for assistance.",
+        "branchRequired": "Please select a branch to continue.",
+        "roundOff": {
+          "title": "Amount Rounding Required",
+          "message": "The amount needs to be rounded off to complete this transaction. Do you want to continue with the rounded amount?",
+          "cancelledTitle": "Transaction Cancelled",
+          "cancelledMessage": "Your transaction has been cancelled. No amount will be collected."
+        }
+      }
+    }
+  },
+  "profile": {
+    "title": "Profile",
+    "contactDetails": {
+      "title": "Contact Details",
+      "mobileNumber": "Mobile Number",
+      "emailAddress": "Email"
+    },
+    "kycDetails": {
+      "title": "KYC Details",
+      "gender": "Gender",
+      "genderFemale": "Female",
+      "genderMale": "Male",
+      "nationality": "Nationality",
+      "dateOfBirth": "Date of Birth",
+      "placeOfBirth": "Place of Birth",
+      "countryOfBirth": "Country of Birth",
+      "address": "Address"
+    },
+    "idDetails": {
+      "title": "ID Details",
+      "idName": "ID Name",
+      "idNumber": "ID Number",
+      "issueDate": "Issue Date",
+      "expiryDate": "Expiry Date"
+    },
+    "professionalDetails": {
+      "title": "Professional Details",
+      "companyName": "Company Name",
+      "professionOrOccupation": "Profession / Occupation",
+      "expectedAnnualTransactionCount": "Expected Annual Transaction Count",
+      "expectedAnnualTransactionAmount": "Expected Annual Transaction Amount"
+    },
+    "updateEmail": {
+      "errors": {
+        "invalidEmail": "Please enter a valid email address",
+        "emailNotChanged": "Please enter a different email address than your current one."
+      }
+    },
+    "otpVerification": {
+      "title": "OTP Verification",
+      "description": "Please enter the OTP sent to your email to verify your new email address.",
+      "sentTo": "The code has been sent to: {emailAddress}",
+      "success": {
+        "message": "Your email address has been updated successfully."
+      },
+      "errors": {
+        "invalidOtp": "Please enter a valid OTP",
+        "unableToVerifyEmailOtp": "Unable to verify OTP. Please ensure you have entered the correct OTP sent to your email."
+      }
+    }
+  },
+  "transactionHistory": {
+    "title": "Transaction History",
+    "searchHint": "Search transactions",
+    "noTransactions": "No transactions found",
+    "sort": {
+      "title": "Sort by",
+      "label": "Sort",
+      "highToLow": "High to Low",
+      "lowToHigh": "Low to High",
+      "newestFirst": "Newest First",
+      "oldestFirst": "Oldest First"
+    },
+    "filter": {
+      "title": "Filter by",
+      "label": "Filter",
+      "noFilterOptions": "No filter options available, please try again later."
+    },
+    "errors": {
+      "unableToGetTransactionHistory": "Unable to load transactions. Please check your internet connection and try again.",
+      "unableToGetTransactionHistoryDetails": "Unable to load transaction details. Please check your internet connection and try again.",
+      "transactionReferenceNotFound": "Transaction reference not found. Unable to download receipt.",
+      "transactionReferenceNotFoundShare": "Transaction reference not found. Unable to share receipt.",
+      "unableToDownloadOrShareTransactionHistoryReceipt": "Unable to download receipt. Please check your internet connection and try again."
+    },
+    "shareReceiptText": "Transaction Receipt",
+    "noTransactionsSubtitle": "Your transactions will appear here once you start sending money."
+  },
+  "ourBranches": {
+    "title": "Our Branches",
+    "noBranches": "No branch information available",
+    "searchHint": "Search branches by name or location",
+    "actions": {
+      "call": "Call",
+      "email": "Email",
+      "directions": "Directions"
+    },
+    "loadError": "Unable to load branches"
+  },
+  "notifications": {
+    "title": "Notifications",
+    "noNotifications": "No notifications available",
+    "errors": {
+      "unableToGetNotifications": "Unable to fetch notifications. Please try again."
+    },
+    "noNotificationsSubtitle": "You're all caught up! Check back later for updates.",
+    "welcome": {
+      "title": "Welcome back 👋",
+      "titleWithName": "Welcome back, {name} 👋",
+      "body": "Great to see you again! Send money home securely, anytime."
+    },
+    "permission": {
+      "title": "Stay Updated 🔔",
+      "message": "Get instant alerts when your transfers are processed, plus important account updates.",
+      "approvalMessage": "Enable notifications and we'll tell you the moment your account is approved — plus transfer updates once you start sending.",
+      "enableButton": "Enable",
+      "notNowButton": "Not Now",
+      "settingsMessage": "Notifications are turned off for this app. Enable them in Settings to receive transfer updates.",
+      "openSettingsButton": "Open Settings",
+      "featureTransfers": "Instant transfer status updates",
+      "featureSecurity": "Important account & security alerts"
+    }
+  },
+  "changeMpin": {
+    "currentMpin": {
+      "title": "Enter your current MPIN",
+      "error": "MPIN does not match. Kindly please re-enter the correct MPIN."
+    },
+    "newMpin": {
+      "title": "Enter your new MPIN",
+      "errors": {
+        "sequentialDigits": "MPIN cannot contain sequential digits. Please choose a different MPIN.",
+        "repeatedDigits": "MPIN cannot contain repeated digits. Please choose a different MPIN.",
+        "invalidMpin": "MPIN must be 6 digits. Kindly please enter a valid MPIN.",
+        "sameAsCurrentMpin": "New MPIN cannot be the same as the current MPIN. Please choose a different MPIN."
+      }
+    },
+    "verifyMpin": {
+      "title": "Confirm your new MPIN",
+      "success": {
+        "title": "MPIN Changed Successfully",
+        "message": "Your MPIN has been successfully changed, you can now use your new MPIN to login."
+      },
+      "errors": {
+        "mismatchVerifyMpin": "MPINs do not match. Please re-enter to confirm your new MPIN."
+      }
+    }
+  },
+  "core": {
+    "otp": {
+      "title": "OTP Verification",
+      "verificationCode": {
+        "label": "One-Time Password (OTP)",
+        "placeholder": "Enter OTP"
+      },
+      "resendOtp": "Resend OTP",
+      "resendIn": "in {time}",
+      "resendNow": "now"
+    },
+    "mpin": {
+      "title": "Hi, {userName}!",
+      "subtitle": "Please enter 6-digit MPIN",
+      "loginWithOtp": "Login with OTP",
+      "forgotMpin": "Forgot MPIN?",
+      "biometricLogin": "Use Fingerprint to login",
+      "biometricSubtitle": "Secure & Faster",
+      "biometricReason": "Authenticate to access your account",
+      "loginWithOtpDialog": {
+        "title": "Sign out & use another account?",
+        "message": "This signs you out of the current account. You'll need to verify a new OTP to sign back in.",
+        "confirm": "Sign Out",
+        "cancel": "Cancel"
+      }
+    },
+    "sendMoney": {
+      "topField": {
+        "label": "Send Country"
+      },
+      "bottomField": {
+        "label": "Receive Country"
+      },
+      "rateIsNotAvailable": "Rate is not available",
+      "selectBankOrAgentFirst": "Select bank or agent first",
+      "rateCalculating": "Calculating…",
+      "calculating": "Please wait while we calculate the amount",
+      "currencyOrCountry": "Currency or Country"
+    },
+    "greeting": {
+      "goodMorning": "Good Morning",
+      "goodAfternoon": "Good Afternoon",
+      "goodEvening": "Good Evening",
+      "goodNight": "Good Night"
+    },
+    "selectablePage": {
+      "title": "Select {title}",
+      "searchPlaceholder": "Search {title}",
+      "noResults": "No {title} found"
+    },
+    "paymentMethodPage": {
+      "subtitle": "Choose how you'd like to pay",
+      "methodsAvailable": "{count} options available",
+      "captions": {
+        "card": "Pay securely with your debit or credit card",
+        "bank": "Direct transfer from your bank account",
+        "wallet": "Pay from your mobile wallet balance",
+        "cash": "Pay in cash at a branch or agent",
+        "other": "Fast and secure payment"
+      },
+      "secureNote": "All payments are processed through secure, licensed channels."
+    },
+    "actionTypes": {
+      "select": "Select {fieldName}",
+      "enter": "Enter {fieldName}"
+    },
+    "stepper": {
+      "step1": "Calculate\nAmount",
+      "step2": "Choose\nRecipients",
+      "step3": "Make\nPayment"
+    },
+    "beneficiaryHeader": {
+      "country": "Country",
+      "transferType": "Transfer Type",
+      "bankOrAgent": "Bank / Agent"
+    },
+    "paymentResult": {
+      "title": "Payment Result",
+      "success": {
+        "title": "Payment Successful!",
+        "message": "Your payment has been processed successfully."
+      },
+      "failure": {
+        "title": "Payment Failed",
+        "message": "There was an issue processing your payment. Please try again."
+      },
+      "fields": {
+        "totalAmount": "Total Amount",
+        "referenceNo": "Reference No.",
+        "referenceId": "Reference ID",
+        "status": "Status",
+        "receiver": "Receiver",
+        "paymentMethod": "Payment Option",
+        "dateTime": "Date & Time"
+      },
+      "payAtBranch": {
+        "title": "Transaction Created!",
+        "message": "Visit your chosen branch before the timer expires to complete your payment.",
+        "timerLabel": "Time Remaining",
+        "expired": {
+          "title": "Payment Window Expired",
+          "message": "The time limit has passed. Please create a new transaction."
+        }
+      },
+      "leaveDialog": {
+        "title": "Leave this page?",
+        "message": "You will return to the home page. You can view this transaction anytime in your transaction history.",
+        "confirm": "Go to Home",
+        "cancel": "Stay"
+      }
+    },
+    "updateEmail": {
+      "title": "Update Email",
+      "description": "Please enter your new email address below. We will send a verification otp to your new email to confirm the change.",
+      "emailField": {
+        "label": "Email Address",
+        "hint": "Enter your new email address"
+      }
+    },
+    "filters": {
+      "countries": "Countries {length}",
+      "beneficiaries": "Beneficiaries {length}",
+      "clearAll": "Clear All"
+    },
+    "camera": {
+      "noCameraFound": "No camera found on this device."
+    },
+    "permission": {
+      "tryAgain": "Try Again",
+      "camera": {
+        "title": "Camera Access Needed",
+        "message": "Camera access is required to capture your ID and complete verification. Tap Open Settings to allow access.",
+        "restricted": "Camera access is blocked on this device by parental controls or your device administrator and cannot be changed inside the app.",
+        "deniedBody": "Camera access was not granted. Open your device Settings to enable Camera access, then return and tap Try Again."
+      },
+      "microphone": {
+        "title": "Microphone Access Needed",
+        "message": "Microphone access is required to record your verification video. Tap Open Settings to allow access.",
+        "restricted": "Microphone access is blocked on this device by parental controls or your device administrator and cannot be changed inside the app.",
+        "deniedBody": "Microphone access was not granted. Open your device Settings to enable Microphone access, then return and tap Try Again."
+      },
+      "cameraAndMic": {
+        "title": "Camera & Microphone Needed",
+        "message": "Camera and microphone access are required to record your verification video. Tap Open Settings to allow both.",
+        "restricted": "Camera or microphone access is blocked on this device by parental controls or your device administrator and cannot be changed inside the app.",
+        "deniedBody": "Camera or microphone access was not granted. Open your device Settings to enable both, then return and tap Try Again."
+      }
+    },
+    "videoPlayer": {
+      "selfieTitle": "Selfie Video"
+    },
+    "transactionBottomSheet": {
+      "totalAmount": "Total Amount",
+      "receiveAmount": "Receive Amount",
+      "transactionDetails": "Transaction Details",
+      "date": "Date",
+      "referenceID": "Reference ID",
+      "paymentMethod": "Payment Mode",
+      "beneficiaryDetails": "Beneficiary Details",
+      "beneficiary": "Beneficiary",
+      "transferMode": "Transfer Mode",
+      "bankAccountNumber": "Bank Account Number",
+      "bankName": "Bank Name"
+    },
+    "tncConsent": {
+      "prefix": "I have read and accept the ",
+      "termsAndConditions": "Terms and Conditions",
+      "unacknowledgedToast": "Please read and accept the Terms and Conditions to proceed."
+    },
+    "languageDialog": {
+      "title": "Choose your preferred language"
+    },
+    "branchSelection": {
+      "selectBranchRequired": "Please select a branch to continue.",
+      "selectBranch": {
+        "label": "Please Select Branch",
+        "hint": "Select Branch",
+        "title": "Select Branch"
+      },
+      "fields": {
+        "branch": "Branch",
+        "contact": "Contact",
+        "address": "Address",
+        "workingHours": "Working Hours"
+      },
+      "actions": {
+        "viewLocation": "View Location"
+      },
+      "messages": {
+        "mapError": "Could not open the map. Please try again."
+      }
+    },
+    "languages": {
+      "english": "English",
+      "arabic": "العربية",
+      "malayalam": "മലയാളം",
+      "hindi": "हिन्दी",
+      "tagalog": "Filipino",
+      "malay": "Bahasa Melayu"
+    },
+    "validation": {
+      "empty": "{fieldName} is required",
+      "tooShort": "{fieldName} is too short",
+      "tooLong": "{fieldName} is too long",
+      "invalidFormat": "Please enter a valid {fieldName}"
+    },
+    "sessionTimeout": {
+      "title": "Session Expired",
+      "message": "You've been inactive for a while, so we locked your session to keep your account safe. Enter your MPIN to continue."
+    },
+    "securityNote": "Your information is encrypted and secure",
+    "dateHint": "DD/MM/YYYY",
+    "copiedToClipboard": "Copied to clipboard",
+    "forceLogout": {
+      "title": "Signed Out",
+      "message": "Your session has been ended for security reasons. Please log in again to continue."
+    }
+  },
+  "buttons": {
+    "save": "Save",
+    "update": "Update",
+    "next": "Next",
+    "continue": "Continue",
+    "acceptAndContinue": "Accept",
+    "getStarted": "Get Started",
+    "addNewBeneficiary": "Add New Beneficiary",
+    "requestOtp": "Request OTP",
+    "logout": "Logout",
+    "login": "Login",
+    "confirm": "Confirm",
+    "slideToConfirm": "Slide to Confirm",
+    "ok": "OK",
+    "okay": "Okay",
+    "cancel": "Cancel",
+    "done": "Done",
+    "delete": "Delete",
+    "verifyEmail": "Verify Email",
+    "retry": "Retry",
+    "apply": "Apply",
+    "share": "Share",
+    "download": "Download",
+    "submit": "Submit",
+    "yes": "Yes",
+    "no": "No",
+    "register": "Register",
+    "openSettings": "Open Settings"
+  },
+  "showcase": {
+    "actions": {
+      "next": "Next",
+      "back": "Back",
+      "skip": "Skip",
+      "done": "Got it"
+    }
+  },
+  "errors": {
+    "networkError": "Network error. Please check your internet connection and try again.",
+    "serverError": "Server error. Please try again later.",
+    "unknownError": "An unknown error occurred. Please try again.",
+    "orElse": "Something went wrong. Please try again.",
+    "biometricNotEnrolled": "No biometrics enrolled on this device. Please set up biometrics in your device settings."
+  },
+  "validation": {
+    "home": {
+      "amountRequired": "Please enter an amount to continue",
+      "transferTypeRequired": "Please select a transfer type to continue",
+      "bankOrAgentRequired": "Please select a bank or agent to continue",
+      "bankOrAgentUnavailable": "No bank or agent is available for this transfer",
+      "agentRequired": "Please select an agent to continue",
+      "agentUnavailable": "No agent is available for this transfer",
+      "paymentMethodRequired": "Please select a payment option to continue",
+      "destinationRequired": "Please select a receive country to continue",
+      "destinationLoadFailed": "Couldn't load the receive countries. Please try again",
+      "destinationUnavailable": "No receive country is available right now",
+      "corridorLoading": "Please wait while the options load",
+      "corridorLoadFailed": "Couldn't load transfer options. Please try again",
+      "transferTypeUnavailable": "No transfer option is available for this receive country"
+    },
+    "summary": {
+      "notReady": "Please wait while we load your transfer details",
+      "beneficiaryNotReady": "Beneficiary details are not ready yet, please wait",
+      "beneficiaryUpdating": "Updating the beneficiary details, please wait a moment",
+      "amountRequired": "Please enter a transfer amount to confirm",
+      "paymentMethodRequired": "Please select a payment option to confirm",
+      "paymentMethodUnsupported": "Pay at Branch is the only available payment option"
+    }
+  },
+  "network": {
+    "offline": {
+      "bannerMessage": "No internet connection"
+    },
+    "online": {
+      "bannerMessage": "Back online!"
+    },
+    "error": {
+      "connectionError": {
+        "title": "Connection Error",
+        "message": "No internet connection. Please check your network settings and try again."
+      },
+      "requestTimeout": {
+        "title": "Request Timeout",
+        "message": "The request is taking too long. Please try again."
+      },
+      "serverError": {
+        "title": "Server Error",
+        "message": "We are experiencing an unexpected technical issue. Our team is working to resolve it. Please try again later."
+      },
+      "noInternetTitle": "No Internet Connection",
+      "noInternetDescription": "Please check your network settings and try again.",
+      "dataLoadTitle": "Something Went Wrong",
+      "dataLoadDescription": "We could not load the data. Please try again.",
+      "retryButton": "Try Again"
+    }
+  },
+  "companyInfo": {
+    "loadError": "Unable to load content. Please try again."
+  },
+  "security": {
+    "blocked": {
+      "title": "Access Restricted",
+      "subtitle": "Your device does not meet our security requirements. For your protection, access to this application has been blocked.",
+      "exitButton": "Exit App",
+      "alertLabel": "SECURITY ALERT",
+      "detectedIssues": "DETECTED ISSUES",
+      "threats": {
+        "jailbreakOrRoot": "Jailbreak or root access detected on this device",
+        "developerMode": "Developer mode is enabled — please disable it",
+        "emulator": "This app cannot run on an emulator or simulator",
+        "usbDebugging": "USB debugging is enabled — please disable it"
+      }
+    }
+  },
+  "contactUs": {
+    "title": "Contact Us",
+    "loadError": "Couldn't load contact details",
+    "loadErrorSubtitle": "Please check your connection and try again."
+  },
+  "appUpdate": {
+    "title": "Update Available",
+    "message": "A new version of the app is available. Please update to continue enjoying the latest features and improvements.",
+    "updateNow": "Update Now",
+    "later": "Later"
+  }
+}

@@ -1,0 +1,82 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+.fvm/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Firebase — every client/environment gets its own project; config must NEVER
+# be committed (it identifies the client and once pushed it stays in history).
+# Generate locally with `flutterfire configure`.
+lib/firebase_options.dart
+**/google-services.json
+**/GoogleService-Info.plist
+**/firebase_app_id_file.json
+firebase.json
+.firebaserc
+.firebase/
+
+# Build-time config for --dart-define-from-file — per-client/per-environment
+# URLs stay out of git; only the placeholder template is committed.
+env/*.json
+!env/env.example.json
+
+# Secrets, signing & provisioning — never commit credentials
+.env
+.env.*
+*.jks
+*.keystore
+**/key.properties
+*.pem
+*.p8
+*.p12
+*.mobileprovision
+
+# Built binaries — distribute via store/CI, not git
+*.apk
+*.aab
+*.ipa
+
+# Claude Code local (per-developer) settings
+.claude/settings.local.json
